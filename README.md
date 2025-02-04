@@ -1,7 +1,7 @@
 # Workflow
 
 ![A diagram of a product Description automatically
-generated](./image1.png)
+generated](./images/image1.png)
 
 # Fitur
 
@@ -59,56 +59,33 @@ generated](./image1.png)
 -   Buka file application/config/database.php, lalu atur koneksi
     database:
 
-\<?php
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
 
-defined(\'BASEPATH\') OR exit(\'No direct script access allowed\');
+$active_group = 'default';
+$query_builder = TRUE;
 
-​
-
-\$active_group = \'default\';
-
-\$query_builder = TRUE;
-
-​
-
-\$db\[\'default\'\] = array(
-
-\'dsn\' =\> \'\',
-
-\'hostname\' =\> \'localhost\',
-
-\'username\' =\> \'root\',
-
-\'password\' =\> \'\',
-
-\'database\' =\> \'fastprint_syahrul\',
-
-\'dbdriver\' =\> \'mysqli\',
-
-\'dbprefix\' =\> \'\',
-
-\'pconnect\' =\> FALSE,
-
-\'db_debug\' =\> (ENVIRONMENT !== \'production\'),
-
-\'cache_on\' =\> FALSE,
-
-\'cachedir\' =\> \'\',
-
-\'char_set\' =\> \'utf8\',
-
-\'dbcollat\' =\> \'utf8_general_ci\',
-
-\'swap_pre\' =\> \'\',
-
-\'encrypt\' =\> FALSE,
-
-\'compress\' =\> FALSE,
-
-\'stricton\' =\> FALSE,
-
-\'failover\' =\> array(),
-\'save_queries\' =\> TRUE
+$db['default'] = array(
+	'dsn'	=> '',
+	'hostname' => 'localhost',
+	'username' => 'root',
+	'password' => '',
+	'database' => 'fastprint_syahrul',
+	'dbdriver' => 'mysqli',
+	'dbprefix' => '',
+	'pconnect' => FALSE,
+	'db_debug' => (ENVIRONMENT !== 'production'),
+	'cache_on' => FALSE,
+	'cachedir' => '',
+	'char_set' => 'utf8',
+	'dbcollat' => 'utf8_general_ci',
+	'swap_pre' => '',
+	'encrypt' => FALSE,
+	'compress' => FALSE,
+	'stricton' => FALSE,
+	'failover' => array(),
+	'save_queries' => TRUE
+);
 
 **3. Import Database**
 
@@ -126,28 +103,28 @@ defined(\'BASEPATH\') OR exit(\'No direct script access allowed\');
 Klik tombol "Tambah Produk"
 
 ![A screenshot of a computer Description automatically
-generated](./image2.png)
+generated](./images/image2.png)
 
 ## Step 2
 
 maka akan muncul form input untuk data produk
 
 ![A screenshot of a computer Description automatically
-generated](./image3.png)
+generated](./images/image3.png)
 
 ## Step 3
 
 Isi form sesuai dengan kebutuhan data produknya
 
 ![A screenshot of a computer Description automatically
-generated](./image4.png)
+generated](./images/image4.png)
 
 ## Step 4
 
 Klik tombol "Simpan" untuk menyimpan data yang di input kan
 
 ![A screenshot of a computer Description automatically
-generated](./image5.png)
+generated](./images/image5.png)
 ## 
 
 ## Step 5
@@ -155,4 +132,4 @@ generated](./image5.png)
 Data berhasil ditambahkan
 
 ![A screenshot of a computer Description automatically
-generated](./image6.png)
+generated](./images/image6.png)
