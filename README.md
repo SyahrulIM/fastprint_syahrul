@@ -85,7 +85,6 @@ defined(\'BASEPATH\') OR exit(\'No direct script access allowed\');
 \'stricton\' =\> FALSE,
 \'failover\' =\> array(),
 \'save_queries\' =\> TRUE
-\)
 
 **3. Import Database**
 
