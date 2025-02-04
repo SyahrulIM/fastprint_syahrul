@@ -113,7 +113,7 @@ defined(\'BASEPATH\') OR exit(\'No direct script access allowed\');
 
 **3. Import Database**
 
--   Run sql file "fastprint_syahrul.sql" yang ada di fastprint folder ke
+-   Run sql file "fastprint_syahrul.sql" yang ada di fastprint_syahrul folder ke
     server sql anda
 
 **4. Import Database**
