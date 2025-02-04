@@ -1,7 +1,7 @@
 # Workflow
 
 ![A diagram of a product Description automatically
-generated](./image1.png){width="5.84375in" height="2.09375in"}
+generated](./image1.png)
 
 # Fitur
 
@@ -126,33 +126,28 @@ defined(\'BASEPATH\') OR exit(\'No direct script access allowed\');
 Klik tombol "Tambah Produk"
 
 ![A screenshot of a computer Description automatically
-generated](./image2.png){width="6.268055555555556in"
-height="3.5256944444444445in"}
+generated](./image2.png)
 
 ## Step 2
 
 maka akan muncul form input untuk data produk
 
 ![A screenshot of a computer Description automatically
-generated](./image3.png){width="6.268055555555556in"
-height="3.5256944444444445in"}
+generated](./image3.png)
 
 ## Step 3
 
 Isi form sesuai dengan kebutuhan data produknya
 
 ![A screenshot of a computer Description automatically
-generated](./image4.png){width="6.268055555555556in"
-height="3.5256944444444445in"}
+generated](./image4.png)
 
 ## Step 4
 
 Klik tombol "Simpan" untuk menyimpan data yang di input kan
 
 ![A screenshot of a computer Description automatically
-generated](./image5.png){width="6.268055555555556in"
-height="3.5256944444444445in"}
-
+generated](./image5.png)
 ## 
 
 ## Step 5
@@ -160,5 +155,4 @@ height="3.5256944444444445in"}
 Data berhasil ditambahkan
 
 ![A screenshot of a computer Description automatically
-generated](./image6.png){width="6.268055555555556in"
-height="3.5256944444444445in"}
+generated](./image6.png)
